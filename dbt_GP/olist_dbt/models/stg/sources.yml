@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: olist_db
+    schema: public
+    tables:
+      - name: ods_orders
+      - name: ods_order_items
+      - name: ods_products
+      - name: ods_customers
+      - name: ods_sellers
+      - name: ods_order_payments
+      - name: ods_order_reviews
+      - name: ods_geolocation
+      - name: ods_product_category_translation
