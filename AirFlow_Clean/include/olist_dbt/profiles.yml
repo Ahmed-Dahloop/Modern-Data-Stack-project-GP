@@ -1,0 +1,13 @@
+olist_dbt:
+  target: dev
+
+  outputs:
+    dev:
+      type: postgres
+      host: host.docker.internal
+      user: postgres
+      password: rootroot
+      port: 5432
+      dbname: olist_db
+      schema: stg
+      threads: 4
